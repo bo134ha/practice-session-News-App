@@ -26,7 +26,7 @@ import com.boshra.news.view_model.NewsViewModel
 @Composable
 fun ArticleDetailsScreen(navController: NavController, viewModel: NewsViewModel) {
 
-    //    collect ui selected article from viewmodel As State
+    //    collect selected article from viewmodel As State
 
     Scaffold(
         topBar = {
